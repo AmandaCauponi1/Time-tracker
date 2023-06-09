@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    font-family: sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+   
+}
+.box1{
+    background-color: hsl(235, 46%, 20%);
+    height: 28rem;
+    width: 14rem;
+    border-radius: 10px;
+}
+.box1 img{
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.box1 article{
+    background-color: hsl(246, 80%, 60%);
+    height: 19rem;
+    width: 14rem;
+    border-radius: 12px;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h1{
+    font-weight: normal;
+    font-size: 2rem;
+    color: white;
+}
+p{
+    color: white;
+}
+.infos{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 3.6rem;
+    
+}
+.content1 {
+    background-color:  hsl(15, 100%, 70%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.content1 img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 12px;
+}
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.elipse{
+    display: flex;
+    justify-content: space-between;
+}
+.elipse img{
+    height: .3rem;
+    width: 1rem;
+    cursor: pointer;
+}
+.work{
+    background-color: hsl(235, 46%, 20%);
+    height: 12rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.work:hover{
+    background-color:  hsl(236, 29%, 27%)
+}
+ .exercise:hover{
+    background-color:  hsl(236, 29%, 27%);
+}
+.content2{
+    background-color:  hsl(145, 58%, 55%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.content2 img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 12px;
+}
+.exercise{
+    background-color: hsl(235, 46%, 20%);
+    height: 12rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+} 
+.exercise img{
+    height: .3rem;
+    width: 1rem;
+    cursor: pointer;
+}
