@@ -19,7 +19,6 @@ main{
 .container{
     display: flex;
     gap: 2rem;
-   
 }
 .box1{
     background-color: hsl(235, 46%, 20%);
@@ -34,10 +33,10 @@ main{
     border-radius: 50%;
 }
 
-.box1 article{
+.box1 .jeremy{
     background-color: hsl(246, 80%, 60%);
     height: 19rem;
-    width: 14rem;
+    width: 100%;
     border-radius: 12px;
     color: white;
     padding: 2rem;
@@ -53,6 +52,20 @@ h1{
 p{
     color: white;
 }
+.daily{
+    color: hsl(235, 45%, 61%);
+    cursor: pointer
+}
+.daily:active{
+    color: white;
+}
+.Monthly{
+    color:hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+.Monthly:hover{
+    color: white;
+}
 .infos{
     padding: 2rem;
     display: flex;
@@ -66,6 +79,7 @@ p{
     gap: 3.6rem;
     
 }
+
 .content1 {
     background-color:  hsl(15, 100%, 70%);
     width: 15rem;
@@ -76,7 +90,8 @@ p{
     align-items: end;
     
 }
-.content1 img{
+
+.content1  img{
     height: 4rem;
     width: 4rem;
     margin-right: 12px;
@@ -103,11 +118,15 @@ p{
     display: flex;
     flex-direction: column;
     gap: 22px;
+    cursor: pointer;
 }
 .work:hover{
     background-color:  hsl(236, 29%, 27%)
 }
  .exercise:hover{
+    background-color:  hsl(236, 29%, 27%);
+}
+.social:hover{
     background-color:  hsl(236, 29%, 27%);
 }
 .content2{
@@ -119,7 +138,7 @@ p{
     flex-direction: column;
     align-items: end;
 }
-.content2 img{
+.content2  img{
     height: 4rem;
     width: 4rem;
     margin-right: 12px;
@@ -133,9 +152,167 @@ p{
     display: flex;
     flex-direction: column;
     gap: 22px;
+    cursor: pointer;
 } 
 .exercise img{
     height: .3rem;
     width: 1rem;
     cursor: pointer;
 }
+.content3{
+    background-color:  hsl(195, 74%, 62%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.content4{
+    background-color:   hsl(264, 64%, 52%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+   
+}
+.content4 > img{
+    height: 2.75rem;
+    width: 4rem;
+    margin-right: 12px;
+}
+.social{
+    background-color: hsl(235, 46%, 20%);
+    height: 12rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 13rem;
+    cursor: pointer;
+}
+.content5{
+    background-color:  hsl(348, 100%, 68%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.content6{
+    background-color: hsl(43, 84%, 65%);
+    width: 15rem;
+    height: 12rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.content6 > img{
+    height: 2.75rem;
+    width: 4rem;
+    margin-right: 12px;
+}
+@media (max-width: 1075px){
+    main{
+    width: 100vw;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 1052px){
+  
+    .container{
+        width: 100rem;
+        height: 100%;
+        display: flex;
+        gap: 0.8rem;
+        justify-content: center;
+        align-items: center;
+       overflow: auto;
+    }
+    
+
+}
+@media (max-width: 991px){
+  body{
+    width: 100vw;
+    height: 100vh;
+   
+  }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        overflow: auto; 
+         margin-bottom: 2rem;
+    }
+    .box1{
+        width: 30rem;
+        margin-top: 70rem;
+    }
+    .infos{
+       display: flex;
+       flex-direction: row;
+    }
+    
+    .content1, .content2,.content3, .work, .content4,.content5, .content6, .social, .exercise{
+        width: 30rem;
+    }
+}
+@media (max-width: 732px){
+  body{
+    width: 100vw;
+    height: 100vh;
+   
+  }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+      /* overflow: auto; */
+      
+    }
+    .box1{
+        width: 20rem;
+        
+        margin-top: 70rem;
+    }
+     .box2{
+        
+       /* display: flex;
+       flex-direction: row; */
+    }
+    .jeremy{
+     height: 10rem;
+    }
+    .infos{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .content1, .content2,.content3, .work, .content4,.content5, .content6, .social, .exercise{
+        width: 20rem;
+    }
+}
+
+
+
+
+
+
